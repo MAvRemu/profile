@@ -1,0 +1,106 @@
+body {
+  color: rgb(84, 84, 84);
+  background: linear-gradient(#E6EBE0, #f4f1bb);
+  font-family: 'Poppins', sans-serif;
+}
+@media (max-width: 2000px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: auto;
+  }
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: auto;
+  }
+}
+
+.card {
+  margin: 20px;
+  background-color: white;
+  padding: 10px 10px 10px 20px;
+  border-radius: 20px;
+  box-shadow: 5px 10px 10px #bababa;
+  text-align: justify;
+}
+
+h1 {
+  font-size: 40px;
+  color: #ed6a5a;
+  margin: 0;
+  line-height: 40px;
+  padding-top: 20px;
+}
+
+h2 {
+  color: rgb(84, 84, 84);
+  margin: 0;
+  font-size: 15px;
+}
+
+h3 {
+  color: #5ca4a9;
+  font-size: 20px;
+  margin: 0;
+}
+
+p {
+  line-height: 25px;
+  padding: 10px 20px;
+}
+
+a {
+  color: #ed6a5a;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: #5ca4a9;
+}
+
+.avatar {
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.logos {
+  list-style-type: none;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.logos ul {
+  padding-left: 0px;
+}
+
+.logos li {
+  display: inline;
+  font-size: 30px;
+  margin: 0px 5px;
+}
